@@ -1,0 +1,17 @@
+[Unit]
+Description=XMRig screen
+After=network.target
+
+[Service]
+Type=simple
+Restart=always
+User=root
+Group=root
+WorkingDirectory=/srv/xmrig
+ExecStart=/srv/xmrig/scripts/start-daemon.sh
+#ExecStart=/usr/bin/screen -d -m /home/user/xmrig-6.10.0/xmrig -o rx.unmineable.com:3333 -a rx -k -u ADA:DdzFFzCqrhsgdyT8TNs1hnxMjoUXtSg47HR1uGhivr5KJvnEHBNQv56j8e4ayw27A2oENBQCGQ6uzdgXNDBBdWs5taBsHRH8d2qnh9sm.netboot
+ExecStop/srv/xmrig/=scripts/stop.sh
+#ExecReload=scripts/reload.sh
+
+[Install]
+WantedBy=multi-user.target
