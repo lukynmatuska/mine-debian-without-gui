@@ -1,7 +1,0 @@
-[Desktop Entry]
-Name=Screen xfce4-terminal
-Terminal=false
-Exec=xfce4-terminal -e 'sudo screen -r xmrig'
-Type=Application
-#Icon=/path/icon.png
-Categories=Utility;

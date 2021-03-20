@@ -6,8 +6,6 @@ firmware-iwlwifi
 snapd
 iotop
 iftop
-firefox-esr
-chromium
 lshw
 htop
 curl
@@ -15,11 +13,8 @@ wget
 zsh
 vim
 git
-putty
 screen
-gparted
 tmux
-arandr
 firmware-linux
 firmware-atheros
 firmware-amd-graphics

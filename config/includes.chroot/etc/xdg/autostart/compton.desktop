@@ -1,8 +1,0 @@
-[Desktop Entry]
-Name=Compton
-Description=Compton for X11
-Terminal=false
-Exec=compton
-Type=Application
-#Icon=/path/icon.png
-Categories=Utility;
