@@ -1,0 +1,16 @@
+[Unit]
+Description=XMRig screen
+After=network.target
+
+[Service]
+Type=simple
+Restart=always
+User=root
+Group=root
+WorkingDirectory=/srv/xmrig
+ExecStart=/srv/xmrig/scripts/start-daemon.doge.sh
+ExecStop/srv/xmrig/=scripts/stop.doge.sh
+#ExecReload=scripts/reload.doge.sh
+
+[Install]
+WantedBy=multi-user.target
